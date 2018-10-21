@@ -27,5 +27,5 @@
 - Mockito для юнит теста
 
 
-Скриншот
+
 ![Image alt](https://github.com/leoniddos/flickrsearch/raw/master/screens/flickr_screen.jpg)
