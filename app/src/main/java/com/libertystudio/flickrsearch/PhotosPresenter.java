@@ -14,7 +14,11 @@ public class PhotosPresenter {
     }
 
     public void search(String title) {
-        photosInteractor.loadPhotos(title);
+        if (!title.isEmpty()){
+            photosInteractor.loadPhotos(title);
+        } else {
+            photosFragment.showTitleError();
+        }
     }
 
     void onPhotoClicked(String photoURL) {

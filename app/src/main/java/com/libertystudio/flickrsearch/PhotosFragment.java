@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.libertystudio.flickrsearch.adapter.PhotoAdapter;
 import com.libertystudio.flickrsearch.entity.Photo;
@@ -58,5 +59,9 @@ public class PhotosFragment extends Fragment {
 
     public void setPhotosToRecyclerView(List<Photo> photos) {
         photoAdapter.setItems(photos);
+    }
+
+    public void showTitleError() {
+        Toast.makeText(getActivity(), "Поле не должно быть пустым", Toast.LENGTH_SHORT).show();
     }
 }
