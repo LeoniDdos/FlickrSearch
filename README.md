@@ -25,3 +25,7 @@
 - OkHttp для логирования запросов
 - Glide для прогрузки фотографий
 - Mockito для юнит теста
+
+
+Скриншот
+![Image alt](https://github.com/leoniddos/flickrsearch/raw/master/screens/flickr_screen.jpg)
